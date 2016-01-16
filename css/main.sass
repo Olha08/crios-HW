@@ -1,0 +1,234 @@
+body
+  font-family: 'Montserrat', sans-serif
+  background: #fff
+
+.flex-container
+  display: flex
+  flex-wrap: wrap
+
+.no-margin
+  margin: 0
+
+.margin-auto
+  margin: auto
+
+.welcome
+  padding: 200px 0px 0px
+  .nav-search
+    margin-top: 35px
+    width: 30px
+    height: 30px
+    line-height: 30px
+    border-radius: 60px
+    border: 1px solid rgba(0, 0, 0, 0.21)
+  .navbar-brand
+    padding: 0
+    float: none
+    margin: 0
+    display: inline-block
+    img
+      margin: 0 auto
+  .jumbotron
+    background: url("../img/welcome.png")
+    padding-bottom: 795px
+    h2
+      color: #000
+      font-size: 48px
+      span
+        color: light-blue
+    p
+      color: #4b5863
+      opacity: 0.25
+      font-size: 18px
+      line-height: 18px
+      padding-bottom: 75px
+
+.btn
+  padding: 15px 30px
+  border-radius: 25px
+  background-color: #fff
+  border-color: transparent
+  box-shadow: 0 0 35px rgba(218, 229, 239, 0.45)
+  color: #43a9ff
+  &:hover
+    background-color: #43a9ff
+    border-color: transparent
+
+.navbar-default
+  background-color: transparent
+  border-color: transparent
+  .navbar-toggle
+    &:focus, &:hover
+      background-color: transparent
+    border-color: transparent
+    padding-top: 35px
+    .icon-bar
+      background-color: #000
+  .navbar-collapse, .navbar-form
+    border-color: #43a9ff
+  .navbar-nav > li > a
+    &:focus, &:hover
+      color: #43a9ff
+    color: #000
+
+.our-features
+  h2
+    color: #000
+    font-size: 48px
+  p
+    color: #4b5863
+    opacity: 0.25
+    font-size: 18px
+    line-height: 18px
+  .features
+    padding: 100px 0 80px
+    .feature-items
+      padding: 0 20px
+      h3
+        font-size: 18px
+      p
+        opacity: 0.35
+        color: #4b5863
+        font-size: 14px
+      .icon
+        width: 52px
+        height: 46px
+      .icon-church
+        content: url("../img/church.png")
+      .icon-snowflake
+        content: url("../img/snowflake.png")
+      .icon-xmasdecor
+        content: url("../img/xmasdecor.png")
+      .icon-bell
+        content: url("../img/bell.png")
+
+.winter-block
+  padding-top: 105px
+  .text-description
+    background-color: #f7f8fb
+    padding-left: 50px
+    display: flex
+    frex-wrap: wrap
+    h3
+      font-size: 48px
+      font-weight: 400
+      margin: auto 0
+      margin-bottom: 0
+    p
+      font-size: 16px
+      font-weight: 400
+      opacity: 0.35
+      color: #4b5863
+      margin: auto 0
+      margin-top: 0
+
+.player-block
+  background: url("../img/snowflake-big.png") no-repeat
+  img
+    padding-top: 265px
+  h3
+    color: #43a9ff
+    font-size: 48px
+    font-weight: 400
+    margin: auto 0
+    margin-bottom: 0
+  p
+    opacity: 0.35
+    color: #4b5863
+    font-size: 16px
+    font-weight: 400
+  .text-description
+    display: flex
+    flex-wrap: wrap
+
+.message-block
+  background: url("../img/snowflake-2.png") bottom right no-repeat
+  padding-bottom: 10%
+  h3
+    color: #43a9ff
+    font-size: 48px
+    font-weight: 400
+    margin: auto 0
+    margin-bottom: 0
+  p
+    opacity: 0.35
+    color: #4b5863
+    font-size: 16px
+    font-weight: 400
+  .text-description
+    display: flex
+    flex-wrap: wrap
+
+.men-section
+  background-color: #f7f8fb
+  .men-left
+    background: url("../img/snowflake-men.png") bottom center no-repeat
+    background-size: contain
+  h3
+    color: #fe3254
+    font-size: 48px
+    font-weight: 400
+    margin: auto 0
+    margin-bottom: 0
+  p
+    opacity: 0.35
+    color: #4b5863
+    font-size: 16px
+    font-weight: 400
+    padding-bottom: 60px
+  .padding-left-100
+    padding-left: 100px
+  .text-description
+    display: flex
+    flex-wrap: wrap
+
+footer
+  background: url("../img/footer.png")
+  padding-top: 65px
+  padding-bottom: 945px
+  h2
+    color: #000
+    font-size: 48px
+    padding-bottom: 75px
+  p
+    color: #4b5863
+    opacity: 0.25
+    font-size: 18px
+    line-height: 18px
+
+@media (min-width: 768px)
+  .container
+    width: 750px
+
+@media (min-width: 992px)
+  .container
+    width: 970px
+
+@media (min-width: 1200px)
+  .container
+    width: 1170px
+
+@media (min-width: 768px)
+  .navbar-collapse.collapse
+    display: none !important
+    overflow: auto !important
+  .navbar-toggle, .collapse.in
+    display: block !important
+  .navbar-collapse.in
+    overflow-y: visible !important
+  .navbar-header
+    float: none
+  .navbar-nav
+    float: none
+    > li
+      float: none
+
+ul
+  list-style: none
+  padding-left: 0
+
+.no-padding-left
+  padding-left: 0
+
+.no-padding-right
+  padding-right: 0

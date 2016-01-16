@@ -1,0 +1,116 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %link{:href => "bower_components/bootstrap/dist/css/bootstrap.min.css", :rel => "stylesheet"}/
+    %link{:href => "//cdn.jsdelivr.net/flexboxgrid/6.3.0/flexboxgrid.min.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/main.css", :rel => "stylesheet"}/
+    %link{:href => "https://fonts.googleapis.com/css?family=Montserrat:400,700", :rel => "stylesheet", :type => "text/css"}/
+    %meta{:charset => "UTF-8"}/
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+    %title Crios
+  %body
+    %section.welcome.text-center
+      %nav.navbar.navbar-default.navbar-fixed-top.text-uppercase
+        .container
+          .navbar-header
+            %button.navbar-toggle.collapsed.pull-left{"aria-expanded" => "false", "data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+              %span.sr-only Toggle navigation
+              %span.icon-bar
+              %span.icon-bar
+              %span.icon-bar
+            %a.navbar-brand{:href => "#"}
+              %img{:src => "img/logo.png"}/
+            .nav-search.pull-right
+              %a{:href => "#"}
+                %i.glyphicon.glyphicon-search
+          #bs-example-navbar-collapse-1.collapse.navbar-collapse
+            %ul.nav.navbar-nav
+              %li
+                %a{:href => "#"} About us
+              %li
+                %a{:href => "#"} Info
+              %li
+                %a{:href => "#"} Contact us
+      .jumbotron
+        %h2 Simple PSD template with cool stuff
+        %p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        %a.btn.btn-primary.text-uppercase{:href => "#"} Explore template
+    %section.our-features.text-center
+      .container
+        %p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        %h2 Lorem ipsum dolor sit amet
+        .col-md-12.features
+          .col-md-3
+            %ul.feature-items
+              %li
+                %i.icon.icon-church
+              %h3 Lorem ipsum dolor sit amet
+              %p
+                Suspendisse vel leo efficitur,
+                venenatis est ut, tincidunt nibh.
+          .col-md-3
+            %ul.feature-items
+              %li
+                %i.icon.icon-snowflake
+              %h3 Lorem ipsum dolor sit amet
+              %p
+                Suspendisse vel leo efficitur,
+                venenatis est ut, tincidunt nibh.
+          .col-md-3
+            %ul.feature-items
+              %li
+                %i.icon.icon-xmasdecor
+              %h3 Lorem ipsum dolor sit amet
+              %p
+                Suspendisse vel leo efficitur,
+                venenatis est ut, tincidunt nibh.
+          .col-md-3
+            %ul.feature-items
+              %li
+                %i.icon.icon-bell
+              %h3 Lorem ipsum dolor sit amet
+              %p
+                Suspendisse vel leo efficitur,
+                venenatis est ut, tincidunt nibh.
+        %a.btn.btn-primary.text-uppercase{:href => "#"} Check our offer
+    %section.winter-block
+      .container-fluid.row.no-margin.no-padding-left.no-padding-right
+        .col-md-6.no-padding-right.no-padding-left
+          %img.img-responsive{:src => "img/winter.png"}/
+        .col-md-6.text-description
+          .flex-container
+            %h3 Lorem ipsum dolor
+            %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel leo efficitur, venenatis est ut, tincidunt nibh. Suspendisse lobortis lectus vel imperdiet ullamcorper.
+    %section.player-block
+      .container.row.margin-auto
+        .col-md-6
+          %img.img-responsive.pull-right{:src => "img/app-screen.png"}/
+        .col-md-6.text-description
+          %h3 Lorem ipsum dolor
+          %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel leo efficitur, venenatis est ut, tincidunt nibh. Suspendisse lobortis lectus vel imperdiet ullamcorper.
+      .clearfix
+    %section.message-block
+      .container.row.margin-auto
+        .col-md-6.text-description
+          %h3 Lorem ipsum dolor
+          %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel leo efficitur, venenatis est ut, tincidunt nibh. Suspendisse lobortis lectus vel imperdiet ullamcorper.
+        .col-md-6
+          %img.img-responsive.pull-right{:src => "img/app-screen2.png"}/
+    %section.men-section
+      .container.row.margin-auto
+        .col-md-6.men-left
+          %img.img-responsive.pull-right{:src => "img/men-img.png"}/
+        .col-md-6.padding-left-100.text-description
+          %h3 Template is awesome
+          %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel leo efficitur, venenatis est ut, tincidunt nibh. Suspendisse lobortis lectus vel imperdiet ullamcorper.
+          .row
+            %strong John Doe
+            %p CEO at Crios.com
+    %footer
+      .container.text-center
+        %p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        %h2 Lorem ipsum dolor sit amet
+        %a.btn.btn-primary.text-uppercase{:href => "#"} Symo.co/Freebies
+    %script{:src => "bower_components/jquery/dist/jquery.min.js", :type => "text/javascript"}
+    %script{:src => "bower_components/bootstrap/dist/js/bootstrap.min.js", :type => "text/javascript"}
